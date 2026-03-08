@@ -98,7 +98,6 @@ resource "local_file" "github_key" {
 ```
 ![keypair.tf](images/terraform_keypair.png)
 
-Feel free to configure your provider details and set up your backend as needed. You can refer to **https://github.com/ucheor/keypair_module_QR.git** if needed.
 
 ```
 touch provider.tf
@@ -117,11 +116,11 @@ provider "aws" {
   region = "us-east-1"
 }
 ```
-To provision keypair on your AWS account, terraform init, validate, apply as required. If you are running your terraform commands using the files from the gitHub repository, remember to switch into the demo_folder, update your bucket name and provider as needed, before initializing terraform providers. Note that your private key will be downloaded to your local repository. Always protect your private key.
+To provision keypair on your AWS account, terraform init, terraform validate, terraform plan, terraform apply as required. 
 
----
+Feel free to configure your provider details and set up your backend as needed. You can refer to **https://github.com/ucheor/AWS_Keypair_Best_Practices_QR.git** if needed.
 
-[Watch demo for backend](images/terraform_keypair_module.mp4)
+If you are running your terraform commands using the files from the gitHub repository, remember to switch into the demo_folder, update your bucket name and provider as needed, before initializing terraform providers. Note that your private key will be downloaded to your local repository. Always protect your private key.
 
 ---
 
