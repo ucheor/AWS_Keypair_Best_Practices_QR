@@ -74,6 +74,10 @@ Because no password is transmitted over the network, this method provides secure
 
 In modern DevOps environments, infrastructure is often provisioned and managed using Infrastructure as Code (IaC) tools.
 
+## Demo
+
+Feel free to configure your provider details and set up your backend as needed. You can refer to **https://github.com/ucheor/AWS_Keypair_Best_Practices_QR.git** if needed.
+
 Key pairs can be integrated directly into automation workflows using Infrastructure as Code tools such as Terraform. Managing key pairs through IaC allows teams to standardize infrastructure deployments, automate provisioning, and maintain consistent access control across multiple environments. In Terraform you can define an AWS key pair resource like this:
 
 ```
@@ -117,8 +121,6 @@ provider "aws" {
 }
 ```
 To provision keypair on your AWS account, terraform init, terraform validate, terraform plan, terraform apply as required. 
-
-Feel free to configure your provider details and set up your backend as needed. You can refer to **https://github.com/ucheor/AWS_Keypair_Best_Practices_QR.git** if needed.
 
 If you are running your terraform commands using the files from the gitHub repository, remember to switch into the demo_folder, update your bucket name and provider as needed, before initializing terraform providers. Note that your private key will be downloaded to your local repository. Always protect your private key.
 
