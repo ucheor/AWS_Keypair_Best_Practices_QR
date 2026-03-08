@@ -34,7 +34,7 @@ This authentication model is based on SSH public-key cryptography, which is sign
 
 ---
 
-## Why AWS Key Pairs Are Important**
+## Why AWS Key Pairs Are Important
 
 1. <u>Passwordless Authentication</u>
 
