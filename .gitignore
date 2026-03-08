@@ -1,4 +1,4 @@
-#keypairs
+#keypair files
 *.pem
 
 # Local .terraform directories
