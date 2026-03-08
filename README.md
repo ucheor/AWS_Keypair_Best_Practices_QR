@@ -120,7 +120,7 @@ provider "aws" {
   region = "us-east-1"
 }
 ```
-To provision keypair on your AWS account, terraform init, terraform validate, terraform plan, terraform apply as required. 
+To provision keypair on your AWS account, **terraform init, terraform validate, terraform plan, terraform apply** as required. 
 
 If you are running your terraform commands using the files from the gitHub repository, remember to switch into the demo_folder, update your bucket name and provider as needed, before initializing terraform providers. Note that your private key will be downloaded to your local repository. Always protect your private key.
 
